@@ -84,8 +84,8 @@ updateCache();
 
 process.env.TZ = "America/Sao_Paulo";
 
-const j1 = scheduleUpdate("55 18 * * *");
-const j2 = scheduleUpdate("59 18 * * *");
+const j1 = scheduleUpdate("55 19 * * *");
+const j2 = scheduleUpdate("25 20 * * *");
 
 const renderPageWithVideos = (videos) => {
   return `
